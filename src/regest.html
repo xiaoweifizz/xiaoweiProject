@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>regest</title>
+	<link rel="stylesheet" type="text/css" href="base.css">
+	<link rel="stylesheet" type="text/css" href="regest.css">
+	<script src="../js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="regest.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/common-js.js" type="text/javascript" charset="utf-8"></script>
+	
+</head>
+<body>
+	<div id="header">
+		<div class="header con">
+			<p>您好，欢迎来到飞虎乐购！<a href="http://localhost:18060/html/login.html">安全登陆</a>还没加入我们？<a href="http://localhost:18060/html/regest.html">免费注册</a></p>
+			<ul class='header_ul'>
+				<li class='header_one_li'>我的账户
+					<div class='header_show_one'>
+						<ul>
+							<li>我的账户</li>
+							<li><a href="#">账户首页</a></li>
+							<li><a href="#">我的收藏</a>
+							</li>
+							<li>
+							<a href="#">我的订单</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class='header_two_li'>
+					<a href="#">帮助中心</a>
+					<div class='header_show_two'>
+					</div>
+				</li>
+				<li class='header_three_li'><a href="#">网站体验反馈</a>
+				</li>
+				<li>
+					<img src="../images/regest_img/header_phone.png">
+					400 883 6900
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- ********regest****** -->
+
+	<div id="regest">
+		<div class="regest con">
+			<img src="../images/regest_img/regest_logo.jpg">
+			<div class='regestNow'>
+				<div class='title'>
+					<h2>用户注册</h2>
+				</div>
+				<div class='regest_now'>
+					<p><span>您尚未注册：</span><span>请填写注册信息，带有*号的为必填项。</span></p>
+					<form class='biaodan'>
+					 <table width="100%" border="0" cellspacing="2" cellpadding="0">
+            		 <tbody>
+                		<tr>
+                			<td width="17%" height="30" align="right">
+                				
+		                        <p><span>*</span>用户名：</p>
+		                        
+                    		</td>
+                    		<td width="33%">
+	                        	<input name="" type="text" id="yonghuming" class="txt" maxlength="20" required />
+	                    	</td>
+                    		<td width="50%">
+                        		<div class="text_tips" id="yonghumingTips" style="display: none;">4-20位字符，可由英文、数字组成
+                        		</div>
+                   			</td>
+                		</tr>
+                		<tr>
+                    		<td height="30" align="right">
+                    			
+		                        <p><span>*</span>密码：</p>
+		                        
+                    		</td>
+                    		<td>
+                        		<input name="" type="password" id="password" class="txt" maxlength="16" required />
+                   			</td>
+                    		<td>
+                        		<div class="text_tips" id="passwordTips" style="display: none;">6-16位字符，可以由英文、数字、特殊字符组成
+                        		</div>
+                   			</td>
+                		</tr>
+                		<tr>
+                    		<td height="30" align="right">
+                    			
+                        		<p><span>*</span>确认密码：</p>
+                        		
+                    		</td>
+                    		<td>
+                        		<input name="" type="password" id="ensurePassword" class="txt" maxlength="16" required />
+                    		</td>
+                    		<td>
+                        		<div class="text_tips" id="ensurePasswordTips"style="display: none;">
+                            请再次输入密码</div>
+                    		</td>
+                		</tr>
+                		<tr>
+                    		<td height="30" align="right">
+								
+                        		<p><span>*</span>邮箱：</p>
+                        		
+                    		</td>
+                    		<td>
+                        		<input name="" type="text" id="Email" class="txt"  maxlength="50" required />
+                    		</td>
+                    		<td>
+                        		<div class="text_tips" id='EmailTips'style="display: none;">
+                            请输入常用邮箱，用来找回密码、接受订单通知等</div>
+                    		</td>
+                		</tr>
+                		<tr>
+                    		<td height="30" align="right">
+                        	<p>推荐人：</p>
+                    		</td>
+                   			 <td>
+                        		<input name="" type="text" id="tuijian" class="txt" maxlength="20" />
+                    		</td>
+                    		<td>
+                        		<div class="text_tips" id='tuijianTips' style="display: none;">
+                            推荐人用户名，区分大小写</div>
+                    		</td>
+                		</tr>
+                		<tr>
+                    		<td height="30" align="right">
+                        		<p>活动代码：</p>
+                    		</td>
+                    		<td>
+                        		<input name="" type="text" id="action" class="txt" />
+                    		</td>
+                    		<td>
+                        		<div class="text_tips" id="actionTips" style="display: none;">
+                            请输入活动代码</div>
+                    		</td>
+                		</tr>
+                		<tr>
+                    		<td height="30" align="right">
+
+		                        <p><span>*</span>验证码：</p>
+		                        
+                    		</td>
+                    		<td>
+                        		<input name="" type="text" id="codeNow" class="txt txt_name" required />
+                    		</td>
+                    		<td>
+                        		<div class="text_tips" style="display: none;" id="codeNowTips">
+                            请输入图片中的数字</div>
+                    		</td>
+                		</tr>
+                		<tr>
+                    		<td>
+                        		&nbsp;
+                    		</td>
+                    		<td>
+                        		<span id='nowCode'></span><a style="cursor: pointer" 
+                       		class="checkCode">换张图</a>
+                            <script type="text/javascript">
+                            	$(function(){
+
+								$('#nowCode').text(randomCode(6))
+								
+								})
+						
+                            </script>
+                    		</td>
+                    		<td>
+                        		&nbsp;
+                    		</td>
+                		</tr>
+                		<tr>
+                    		<td height="30">
+                        		&nbsp;
+                    		</td>
+                    		<td colspan="2">
+                        		<div class="agreement_box">
+                            	<input style='' name="checkbox" type="checkbox" id="checkbox" sid="chkAgreement"><span class='agree'>我已阅读并同意</span>
+                            	 <a class='fhXieyi' href="http://www.efeihu.com/Pages/MemberCenter/Agreement.aspx" id="ctl00_ContentPlaceHolder1_InternetRegister1_lblagreementlink" target="_blank">飞虎乐购用户协议</a>
+                        		</div>
+                        		<div class="fh_agreement" style="display: none;"> 
+                            	请阅读并同意飞虎乐购用户协议</div>
+                    		</td>
+                		</tr>
+                		<tr>
+                    		<td>
+                        		&nbsp;
+                    		</td>
+                    		<td class='last_td'>
+                        		<a style="cursor: pointer" class="btn_register"  id="regestNow">
+                            	安全登录<b></b></a>
+                            </td>
+                    		<td>
+                        		&nbsp;
+                    		</td>
+                		</tr>
+            	</tbody>
+        </table>
+       </form>
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>

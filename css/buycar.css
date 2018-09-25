@@ -1,0 +1,170 @@
+a {
+  cursor: pointer; }
+
+#header {
+  width: 100%;
+  height: 29px;
+  border-bottom: 1px solid #CCC;
+  background: red; }
+  #header .header {
+    height: 29px;
+    background: #F0F0F0; }
+    #header .header p {
+      display: inline-block;
+      font-size: 12px;
+      color: #DCB07C;
+      line-height: 29px;
+      text-align: left; }
+      #header .header p a {
+        font-size: 12px;
+        color: #0066FD; }
+    #header .header ul {
+      width: 339px;
+      height: 29px;
+      float: right; }
+      #header .header ul .header_three_li {
+        width: 80px;
+        font-size: 12px;
+        text-indent: 1em;
+        color: black;
+        line-height: 29px;
+        float: left; }
+      #header .header ul li:last-child {
+        width: 95px;
+        height: 29px;
+        float: left;
+        font-size: 12px;
+        line-height: 29px; }
+      #header .header ul .header_one_li, #header .header ul .header_two_li {
+        height: 29px;
+        width: 80px;
+        float: left;
+        text-indent: 1em;
+        font-size: 12px;
+        line-height: 29px;
+        position: relative; }
+        #header .header ul .header_one_li .header_show_one, #header .header ul .header_one_li .header_show_two, #header .header ul .header_two_li .header_show_one, #header .header ul .header_two_li .header_show_two {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: none; }
+          #header .header ul .header_one_li .header_show_one ul, #header .header ul .header_one_li .header_show_two ul, #header .header ul .header_two_li .header_show_one ul, #header .header ul .header_two_li .header_show_two ul {
+            width: 80px;
+            height: 120px;
+            background: white;
+            border-top: none; }
+            #header .header ul .header_one_li .header_show_one ul li, #header .header ul .header_one_li .header_show_two ul li, #header .header ul .header_two_li .header_show_one ul li, #header .header ul .header_two_li .header_show_two ul li {
+              width: 80px;
+              height: 30px; }
+              #header .header ul .header_one_li .header_show_one ul li a, #header .header ul .header_one_li .header_show_two ul li a, #header .header ul .header_two_li .header_show_one ul li a, #header .header ul .header_two_li .header_show_two ul li a {
+                color: black; }
+            #header .header ul .header_one_li .header_show_one ul li:hover a, #header .header ul .header_one_li .header_show_two ul li:hover a, #header .header ul .header_two_li .header_show_one ul li:hover a, #header .header ul .header_two_li .header_show_two ul li:hover a {
+              color: red; }
+
+#buycar_head {
+  width: 100%;
+  height: 85px; }
+  #buycar_head .buycar_head {
+    height: 85px; }
+    #buycar_head .buycar_head a {
+      display: block;
+      width: 214px;
+      height: 88px;
+      background: url("../images/index_img/search_logo.png");
+      float: left;
+      margin-right: 50px; }
+    #buycar_head .buycar_head ul {
+      margin-top: 30px;
+      float: left;
+      width: 636px;
+      height: 40px; }
+      #buycar_head .buycar_head ul li {
+        float: left;
+        width: 212px;
+        height: 35px;
+        font-size: 16px;
+        line-height: 35px;
+        text-indent: 4em;
+        color: white; }
+      #buycar_head .buycar_head ul li:nth-child(1) {
+        background: url("../images/buycar_img/cart32.png"); }
+      #buycar_head .buycar_head ul li:nth-child(2) {
+        background: url("../images/buycar_img/cart32.png") -210px 0px; }
+      #buycar_head .buycar_head ul li:nth-child(3) {
+        background: url("../images/buycar_img/cart32.png") -420px 0px; }
+
+#myBuy {
+  width: 100%; }
+  #myBuy .myBuy {
+    height: 30px; }
+    #myBuy .myBuy .myBuy_head {
+      height: 30px;
+      text-align: left; }
+      #myBuy .myBuy .myBuy_head h1 {
+        font-size: 25px;
+        line-height: 25px; }
+
+#footer {
+  width: 100%;
+  height: 344px;
+  background: white; }
+  #footer .footer {
+    height: 344px;
+    background: white;
+    overflow: hidden; }
+    #footer .footer .ul_one {
+      height: 150px;
+      margin-top: 66px;
+      margin-left: 110px; }
+      #footer .footer .ul_one > li {
+        float: left;
+        height: 150px;
+        padding: 0 20px;
+        border-right: 1px solid black; }
+        #footer .footer .ul_one > li a {
+          font-size: 12px;
+          color: #ccc; }
+      #footer .footer .ul_one .li_one ul li span:nth-child(1) {
+        font-size: 12px; }
+      #footer .footer .ul_one .li_one ul li:nth-child(3) {
+        margin-top: 20px;
+        text-indent: 4em; }
+        #footer .footer .ul_one .li_one ul li:nth-child(3) span {
+          color: red; }
+      #footer .footer .ul_one .li_one ul li:nth-child(4) {
+        margin-top: 15px;
+        text-indent: 6em; }
+        #footer .footer .ul_one .li_one ul li:nth-child(4) span {
+          color: red; }
+    #footer .footer .footer_last {
+      height: 128px;
+      width: 980px;
+      margin-left: 113px;
+      margin-top: 20px;
+      float: left; }
+      #footer .footer .footer_last .ul_one {
+        margin-top: 0;
+        height: 12px; }
+        #footer .footer .footer_last .ul_one li {
+          border: none;
+          padding-right: 1px;
+          height: 12px; }
+          #footer .footer .footer_last .ul_one li a {
+            font-size: 12px;
+            color: black; }
+      #footer .footer .footer_last .ul_two {
+        margin-top: 10px;
+        font-size: 12px;
+        color: #ccc;
+        margin-left: 20px; }
+        #footer .footer .footer_last .ul_two a {
+          color: #ccc; }
+        #footer .footer .footer_last .ul_two a:hover {
+          color: blue; }
+    #footer .footer .gov {
+      float: left; }
+      #footer .footer .gov img {
+        height: 70px;
+        width: 50px; }
+
+/*# sourceMappingURL=buycar.css.map */

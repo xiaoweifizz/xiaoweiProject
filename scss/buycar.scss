@@ -1,0 +1,225 @@
+@charset "utf-8";
+a{
+cursor:pointer;
+}
+#header{
+    width: 100%;
+    height: 29px;
+    border-bottom:1px solid #CCC;
+    background:red;
+    .header{height: 29px;
+            background:#F0F0F0;
+            p{display:inline-block;
+              font-size: 12px;
+              color:#DCB07C;
+              line-height: 29px;
+              text-align: left;
+              a{font-size: 12px;
+                color:#0066FD;
+              }
+            }
+            ul{width: 339px;
+               height: 29px;
+               float:right;
+               .header_three_li{
+                    width: 80px;
+                    font-size: 12px;
+                    text-indent: 1em;
+                    color:black;
+                    line-height: 29px;
+                    float:left;
+                }
+                li:last-child{width: 95px;
+                              height: 29px;
+                              float:left;
+                              font-size: 12px;
+                              line-height: 29px;}
+               .header_one_li,.header_two_li{
+                height: 29px;
+                width: 80px;
+                float:left;
+                text-indent: 1em;
+                font-size: 12px;
+                line-height: 29px;
+                position:relative;
+                // box-sizing:border-box;
+                    .header_show_one,.header_show_two{
+                        position:absolute;
+                        top:0;
+                        left:0;
+                        display:none;
+                        ul{
+                        width: 80px;
+                        height: 120px;
+                        background:white;
+                        // border:1px solid black;
+                        border-top:none;
+                            li{width: 80px;
+                               height:30px;
+                               a{color:black;}
+                               }
+                            li:hover a{color:red;} 
+                          }
+                            
+                    }
+               }
+              
+            }    
+    }
+}
+    // <!-- *******search********* -->
+#buycar_head{
+    width: 100%;
+    height: 85px;
+    .buycar_head{
+        height: 85px;
+        a{
+            display:block;
+            width: 214px;
+            height: 88px;
+            background:url('../images/index_img/search_logo.png');
+            float:left;
+            margin-right: 50px;
+        }
+        ul{
+            margin-top: 30px;
+            float:left;
+            width: 636px;
+            height: 40px;
+            li{
+                float:left;
+                width: 212px;
+                height: 35px;
+                font-size: 16px;
+                line-height: 35px;
+                text-indent: 4em;
+                color:white;
+
+            }
+            li:nth-child(1){
+                background:url('../images/buycar_img/cart32.png') ;
+            }
+            li:nth-child(2){
+                background:url('../images/buycar_img/cart32.png') -210px 0px;
+            }
+            li:nth-child(3){
+                background:url('../images/buycar_img/cart32.png') -420px 0px ;
+            }
+        }
+    }
+
+}
+
+#myBuy{
+    width: 100%;
+    // height: 500px;
+    // background:red;
+    .myBuy{
+        height: 30px;
+        .myBuy_head{
+            height: 30px;
+            text-align: left;
+            h1{
+            // margin-left: 1200px;
+            // display:inline-block;
+            font-size: 25px;
+            // text-indent: 1em;
+            line-height: 25px;
+            }
+        }
+
+        
+    }
+ 
+}
+ 
+
+// <!-- footer**************************** -->
+
+    #footer{
+    width: 100%;
+    height: 344px;
+    background:white;
+    .footer{
+        height: 344px;
+        background:white;
+        overflow: hidden;
+        .ul_one{
+            height: 150px;
+            margin-top: 66px;
+            margin-left: 110px;
+            >li{
+                float:left;
+                height: 150px;
+                padding:0 20px;
+                border-right:1px solid black;
+                a{font-size: 12px;
+                color:#ccc;
+                }
+            }
+            .li_one{
+                ul li span:nth-child(1){
+                    font-size: 12px;
+                }
+                ul li:nth-child(3){
+                    margin-top: 20px;
+                    text-indent: 4em;
+                    span{
+                        color:red;
+                    }
+                }
+                ul li:nth-child(4){
+                    margin-top: 15px;
+                    text-indent: 6em;
+                    span{
+                        color:red;
+                    }
+                }
+            }
+        }
+
+        .footer_last{
+            height: 128px;
+            width: 980px;
+            margin-left: 113px;
+            margin-top: 20px;
+            float:left;
+            .ul_one{
+                margin-top: 0;
+                height: 12px;
+                li{
+                    border:none;
+                    padding-right:1px;
+                    height: 12px;
+                    a{
+                        font-size: 12px;
+                        color:black;
+
+                    }
+                }
+            }
+
+            .ul_two{
+                margin-top: 10px;
+                font-size: 12px;
+                color:#ccc;
+                margin-left: 20px;
+                a{color:#ccc;}
+                a:hover{
+                    color:blue;
+                }
+
+            }
+        }
+
+        .gov{
+
+            float:left;
+            img{
+                height: 70px;
+
+                width: 50px;}
+        }
+    }
+}
+

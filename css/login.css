@@ -1,0 +1,240 @@
+#header {
+  width: 100%;
+  height: 29px;
+  border-bottom: 1px solid #CCC;
+  background: red; }
+  #header .header {
+    height: 29px;
+    background: #F0F0F0; }
+    #header .header p {
+      display: inline-block;
+      font-size: 12px;
+      color: #DCB07C;
+      line-height: 29px;
+      text-align: left; }
+      #header .header p a {
+        font-size: 12px;
+        color: #0066FD;
+        text-decoration: underline; }
+      #header .header p a:hover {
+        color: red; }
+    #header .header ul {
+      width: 339px;
+      height: 29px;
+      float: right; }
+      #header .header ul .header_three_li {
+        width: 80px;
+        font-size: 12px;
+        text-indent: 1em;
+        color: black;
+        line-height: 29px;
+        float: left; }
+      #header .header ul li:last-child {
+        width: 95px;
+        height: 29px;
+        float: left;
+        font-size: 12px;
+        line-height: 29px; }
+      #header .header ul .header_one_li {
+        height: 29px;
+        width: 80px;
+        float: left;
+        text-indent: 1em;
+        font-size: 12px;
+        line-height: 29px;
+        position: relative; }
+        #header .header ul .header_one_li .header_show_one {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: none; }
+          #header .header ul .header_one_li .header_show_one ul {
+            width: 80px;
+            height: 120px;
+            background: white;
+            border-top: none; }
+            #header .header ul .header_one_li .header_show_one ul li {
+              width: 80px;
+              height: 30px; }
+              #header .header ul .header_one_li .header_show_one ul li a {
+                color: black; }
+            #header .header ul .header_one_li .header_show_one ul li:hover a {
+              color: red; }
+      #header .header ul .header_two_li {
+        height: 29px;
+        width: 60px;
+        float: left;
+        text-decoration: underline;
+        font-size: 12px;
+        line-height: 29px; }
+        #header .header ul .header_two_li a {
+          color: black; }
+        #header .header ul .header_two_li a:hover {
+          color: blue; }
+      #header .header ul .header_three_li {
+        height: 29px;
+        width: 90px;
+        float: left;
+        text-decoration: underline;
+        font-size: 12px;
+        line-height: 29px;
+        padding-right: 5px; }
+        #header .header ul .header_three_li a {
+          color: black; }
+        #header .header ul .header_three_li a:hover {
+          color: blue; }
+
+#login {
+  width: 100%;
+  height: 466px;
+  background: url("../images/regest_img/bg.jpg") repeat; }
+  #login .btn_login {
+    display: block;
+    width: 140px;
+    height: 40px;
+    background: url("../images/login_img/login.png") 0px -60px; }
+    #login .btn_login:hover {
+      background: url("../images/login_img/login.png") 0px -100px; }
+  #login .login {
+    width: 1200px;
+    height: 466px;
+    background: url("../images/regest_img/regest_bg.jpg") no-repeat 100px 0; }
+    #login .login img {
+      float: left; }
+    #login .login .loginNow {
+      border: 2px solid #EEDFBB;
+      width: 366px;
+      height: 400px;
+      float: right;
+      margin-right: 245px;
+      margin-top: 30px;
+      background: white; }
+      #login .login .loginNow .joint_login {
+        overflow: hidden; }
+      #login .login .loginNow .title {
+        width: 366px;
+        height: 33px;
+        background: #EFEFEF; }
+        #login .login .loginNow .title h2 {
+          font-weight: 700;
+          line-height: 33px;
+          text-indent: 2em; }
+      #login .login .loginNow .welcome {
+        width: 320px;
+        height: 33px;
+        line-height: 33px;
+        text-indent: 1em;
+        font-size: 13px;
+        background: #FAFAFA;
+        margin-top: 6px;
+        margin-left: 15px;
+        border: 1px solid #ccc;
+        float: left; }
+      #login .login .loginNow .err_tips {
+        width: 320px;
+        height: 33px;
+        line-height: 33px;
+        text-indent: 1em;
+        font-size: 13px;
+        background: #FAFAFA;
+        margin-top: 6px;
+        margin-left: 15px;
+        border: 1px solid #ccc;
+        display: none; }
+      #login .login .loginNow .table_1 tr:first-child #username_input {
+        display: block;
+        width: 240px;
+        height: 25px;
+        margin-top: 10px; }
+      #login .login .loginNow .table_1 tr:first-child td:first-child {
+        font-size: 13px;
+        padding-top: 5px;
+        text-align: bottom; }
+      #login .login .loginNow .table_1 tr:nth-child(2) #password_input {
+        display: block;
+        width: 240px;
+        height: 25px;
+        margin-top: 10px; }
+      #login .login .loginNow .table_1 tr:nth-child(2) td:first-child {
+        font-size: 13px;
+        padding-top: 5px;
+        text-align: bottom; }
+      #login .login .loginNow .table_1 tr:nth-child(3) .forgotpwd {
+        display: block;
+        font-size: 13px;
+        text-decoration: underline;
+        margin-top: 5px;
+        margin-bottom: 5px; }
+      #login .login .loginNow .table_1 #joint_login {
+        width: 320px;
+        height: 150px;
+        background: white;
+        border-top: 1px dashed #ccc; }
+        #login .login .loginNow .table_1 #joint_login .joint_login {
+          width: 100%;
+          height: 100%; }
+
+#footer {
+  width: 100%;
+  height: 344px;
+  background: white; }
+  #footer .footer {
+    height: 344px;
+    background: white;
+    overflow: hidden; }
+    #footer .footer .ul_one {
+      height: 150px;
+      margin-top: 66px;
+      margin-left: 110px; }
+      #footer .footer .ul_one > li {
+        float: left;
+        height: 150px;
+        padding: 0 20px;
+        border-right: 1px solid black; }
+        #footer .footer .ul_one > li a {
+          font-size: 12px;
+          color: #ccc; }
+      #footer .footer .ul_one .li_one ul li span:nth-child(1) {
+        font-size: 12px; }
+      #footer .footer .ul_one .li_one ul li:nth-child(3) {
+        margin-top: 20px;
+        text-indent: 4em; }
+        #footer .footer .ul_one .li_one ul li:nth-child(3) span {
+          color: red; }
+      #footer .footer .ul_one .li_one ul li:nth-child(4) {
+        margin-top: 15px;
+        text-indent: 6em; }
+        #footer .footer .ul_one .li_one ul li:nth-child(4) span {
+          color: red; }
+    #footer .footer .footer_last {
+      height: 128px;
+      width: 980px;
+      margin-left: 113px;
+      margin-top: 20px;
+      float: left; }
+      #footer .footer .footer_last .ul_one {
+        margin-top: 0;
+        height: 12px; }
+        #footer .footer .footer_last .ul_one li {
+          border: none;
+          padding-right: 1px;
+          height: 12px; }
+          #footer .footer .footer_last .ul_one li a {
+            font-size: 12px;
+            color: black; }
+      #footer .footer .footer_last .ul_two {
+        margin-top: 10px;
+        font-size: 12px;
+        color: #ccc;
+        margin-left: 20px; }
+        #footer .footer .footer_last .ul_two a {
+          color: #ccc; }
+        #footer .footer .footer_last .ul_two a:hover {
+          color: blue; }
+    #footer .footer .gov {
+      float: left; }
+      #footer .footer .gov img {
+        height: 70px;
+        width: 50px; }
+
+/*# sourceMappingURL=login.css.map */

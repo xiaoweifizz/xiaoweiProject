@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="base.css">
+	<link rel="stylesheet" href="carts.css">
+	<link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="buycar.css">
+    
+	<script src='../js/jquery-1.10.1.min.js' type="text/javascript" charset="utf-8"></script>
+	<script src='../js/common-js.js'></script>
+	<script src='buycar.js' type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body>
+	<div id="header">
+		<div class="header con">
+			<p>您好，欢迎来到飞虎乐购！<a href="#">安全登陆</a>还没加入我们？<a href="#">免费注册</a></p>
+			<ul class='header_ul'>
+				<li class='header_one_li'>我的账户
+					<div class='header_show_one'>
+						<ul>
+							<li>我的账户</li>
+							<li><a href="#">账户首页</a></li>
+							<li><a href="#">我的收藏</a>
+							</li>
+							<li>
+							<a href="#">我的订单</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class='header_two_li'>
+					网站导航
+					<div class='header_show_two'>
+						<ul>
+							<li>网站导航</li>
+							<li><a href="#">帮助中心</a></li>
+							<li><a href="#">联系客服</a>
+							</li>
+							<li>
+							<a href="#">常见问题</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class='header_three_li'>加入收藏
+				</li>
+				<li>
+					<img src="../images/goodslist/header_phone.png">
+					400 883 6900
+				</li>
+			</ul>
+		</div>
+	</div>
+<!-- head************************ -->
+
+
+<div id="buycar_head">
+	<div class="buycar_head con">
+		<a href="http://localhost:18060/index.html"></a>
+		<ul>
+			<li class='stepOne'>我的购物车</li>
+			<li class='steptwo'>确认订单信息</li>
+			<li class='stepthree'>成功提交订单</li>
+		</ul>
+	</div>
+</div>
+
+<div id="myBuy">
+	<div class="myBuy con">
+		<div class='myBuy_head'>
+			<h1>挑选我的商品</h1>
+		</div>
+
+		
+	</div>
+	<section class="cartMain con">
+        <div class="cartMain_hd">
+            <ul class="order_lists cartTop">
+                <li class="list_chk">
+                    <!--所有商品全选-->
+                    <input type="checkbox" id="all" class="whole_check">
+                    <label for="all"></label>
+                    全选
+                </li>
+                <li class="list_con">商品信息</li>
+                <li class="list_info">商品参数</li>
+                <li class="list_price">单价</li>
+                <li class="list_amount">数量</li>
+                <li class="list_sum">金额</li>
+                <li class="list_op">操作</li>
+            </ul>
+        </div>
+
+        <div class="cartBox">
+            <div class="shop_info">
+                <div class="all_check">
+                    <!--店铺全选-->
+                    <input type="checkbox" id="shop_a" class="shopChoice">
+                    <!-- <label for="shop_a" class="shop"></label> -->
+                </div>
+<!--                 <div class="shop_name">
+                    店铺：<a href="javascript:;">搜猎人艺术生活</a>
+                </div> -->
+            </div>
+            <div class="order_content">
+               
+                
+            </div>
+        </div>
+
+     
+        <!--底部-->
+        <div class="bar-wrapper">
+            <div class="bar-right">
+                <div class="piece">已选商品<strong class="piece_num">0</strong>件</div>
+                <div class="totalMoney">共计: <strong class="total_text">0.00</strong></div>
+                <div class="calBtn"><a href="javascript:;">结算</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="model_bg"></section>
+    <section class="my_model">
+        <p class="title">删除宝贝<span class="closeModel">X</span></p>
+        <p>您确认要删除该宝贝吗？</p>
+        <div class="opBtn"><a href="javascript:;" class="dialog-sure">确定</a><a href="javascript:;" class="dialog-close">关闭</a></div>
+    </section>
+
+    <!-- <script src="carts.js"></script> -->
+
+</div>
+
+</body>
+</html>
